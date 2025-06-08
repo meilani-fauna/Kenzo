@@ -5,12 +5,12 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "jipedo6492.workers.dev"; // Ganti dengan domain utama kalian
 const serviceName = "kenzo"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiKey = "r8BLlVYmSxmtCq0sQRH2cYFHvRiaJlGJmX9d93Y2"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "Jipedo6492@adrewire.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "887413e1b966e2d15e67d1f21e0f59be"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "";
+let proxyIP = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
 let cachedProxyList = [];
 
 // Constant
